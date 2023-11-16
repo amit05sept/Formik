@@ -21,7 +21,7 @@
     max-width: 500px;
     border: 1px solid black;
     border-radius: 10%;
-    padding: 30px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@
 }
 
 .inputArea{
-    min-width: 300px;
+    min-width: 400px;
     font-size: 20px;
     font-style: italic;
     border: none;
@@ -59,4 +59,9 @@
 .dropdown{
     max-width: 300px;
     font-size: 20px
+}
+
+.form-error{
+    color: red;
+    font-style: italic;
 }
